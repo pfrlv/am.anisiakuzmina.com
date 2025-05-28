@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.editor {
+  @apply text-black/65;
+}
+.editor div {
+  @apply mb-[50px] last:mb-0;
+}
+.editor h2 {
+  @apply uppercase inline-block text-black;
+}
+
+.editor h3 {
+  @apply text-black mb-[10px] last:mb-0;
+}
+
+.editor ul {
+  @apply mt-[10px];
+}
+
+.editor ul li {
+  @apply list-disc ml-[1.5em] pl-[0.5em];
+}
+
+.editor h1 {
+  @apply text-mmd md:text-lg uppercase mb-[30px] text-black;
+}
+
+.editor strong {
+  @apply font-normal text-black;
+}
+
+.editor .image {
+  @apply max-w-none ml-[-10px] w-[calc(100%+10px)] lg:ml-[-14.285714%] lg:w-[114.285714%] md:ml-[-12.5%] md:w-[112.5%];
+}
+
+.editor .video {
+  @apply relative pb-[56.25%] overflow-hidden;
+}
+
+.editor .audio {
+  @apply relative pb-[64px] overflow-hidden mb-0;
+}
+
+.editor .audio iframe {
+  @apply w-full h-full absolute;
+}
+
+.editor .video iframe {
+  @apply w-full h-full absolute;
+}
+
+.editor a {
+  @apply underline hover:no-underline;
+}
+
+.gradi {
+  background: linear-gradient(360deg, #F8F8F3 0%, rgba(248, 248, 243, 0.991615) 11.79%, rgba(248, 248, 243, 0.967585) 21.38%, rgba(248, 248, 243, 0.9296) 29.12%, rgba(248, 248, 243, 0.879348) 35.34%, rgba(248, 248, 243, 0.818519) 40.37%, rgba(248, 248, 243, 0.7488) 44.56%, rgba(248, 248, 243, 0.671881) 48.24%, rgba(248, 248, 243, 0.589452) 51.76%, rgba(248, 248, 243, 0.5032) 55.44%, rgba(248, 248, 243, 0.414815) 59.63%, rgba(248, 248, 243, 0.325985) 64.66%, rgba(248, 248, 243, 0.2384) 70.88%, rgba(248, 248, 243, 0.153748) 78.62%, rgba(248, 248, 243, 0.0737185) 88.21%, rgba(248, 248, 243, 0) 100%);
+}
+.gradi-v {
+  background: linear-gradient(270deg, #F8F8F3 0%, rgba(248, 248, 243, 0.991615) 11.79%, rgba(248, 248, 243, 0.967585) 21.38%, rgba(248, 248, 243, 0.9296) 29.12%, rgba(248, 248, 243, 0.879348) 35.34%, rgba(248, 248, 243, 0.818519) 40.37%, rgba(248, 248, 243, 0.7488) 44.56%, rgba(248, 248, 243, 0.671881) 48.24%, rgba(248, 248, 243, 0.589452) 51.76%, rgba(248, 248, 243, 0.5032) 55.44%, rgba(248, 248, 243, 0.414815) 59.63%, rgba(248, 248, 243, 0.325985) 64.66%, rgba(248, 248, 243, 0.2384) 70.88%, rgba(248, 248, 243, 0.153748) 78.62%, rgba(248, 248, 243, 0.0737185) 88.21%, rgba(248, 248, 243, 0) 100%);
+}
+
+.debug-screen::after {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-family: monospace;
+  font-size: 11px;
+  line-height: 10px;
+  z-index: 2147483638;
+}
+@layer base {
+  em {
+    @apply not-italic text-black;
+  }
+  .debug-screen::after { content: 'unset'; }
+  :root { --breakpoint: 'unset'; }
+  
+  @media screen(sm) {
+    :root { --breakpoint: 'sm'; }
+    .debug-screen::after { content: 'sm'; }
+  }
+  
+  @media screen(md) {
+    :root { --breakpoint: 'md'; }
+    .debug-screen::after { content: 'md'; }
+  }
+  
+  @media screen(lg) {
+    :root { --breakpoint: 'lg'; }
+    .debug-screen::after { content: 'lg'; }
+  }
+  
+  @media screen(xl) {
+    :root { --breakpoint: 'xl'; }
+    .debug-screen::after { content: 'xl'; }
+  }
+  
+  @media screen(2xl) {
+    :root { --breakpoint: 'xl'; }
+    .debug-screen::after { content: 'xl'; }
+  }
+}

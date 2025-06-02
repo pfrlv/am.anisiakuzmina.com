@@ -7,7 +7,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Анисия Кузьмина • Память</title>
+        <title>Анисия Кузьмина • Фокус внимания — Я</title>
         <meta
           name="description"
           content=""
@@ -36,7 +36,7 @@ export default function App({ Component, pageProps }) {
           property="og:title"
           content="Практикум по фотографии с Анисией Кузьминой"
         />
-        <meta property="og:site_name" content="Фокус внимания" />
+        <meta property="og:site_name" content="Фокус внимания — Я" />
         {/* <meta property="og:description" content="Откройте для себя искусство создания фотографий, которые искренне отражают вашу индивидуальность и окружающий мир. Мои упражнения помогут вам не только улучшить технические навыки, но и глубже понять себя, свои предпочтения и эмоции. Начните свое путешествие к самопознанию и творческому росту прямо сейчас" /> */}
         <meta property="og:image" content="/meta/share.png" />
         <meta property="og:image:width" content="1200" />

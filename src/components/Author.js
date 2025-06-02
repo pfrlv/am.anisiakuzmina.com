@@ -1,5 +1,5 @@
 import Image from "next/image";
-import aniskuss from "../../public/images/aniskuss.jpg";
+import aniskuss from "../../public/images/am/IMG_3634_sm.jpg";
 
 export default function Author() {
   return (

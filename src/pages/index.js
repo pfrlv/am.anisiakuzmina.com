@@ -11,8 +11,8 @@ import Footer from "@/components/Footer";
 import Reviews from "@/components/Reviews";
 // import Guests from "@/components/Guests";
 
-import firstImage from "../../public/images/am/R1-06660-0027_sm.jpg";
-import secondImage from "../../public/images/am/IMG_3225_sm.jpg";
+import firstImage from "../../public/images/am/IMG_3637_sm.jpg";
+import secondImage from "../../public/images/am/IMG_5480_sm.jpg";
 
 // const MarqueeLine = ({ reverse = false, className = "" }) => (
 //   <Marquee

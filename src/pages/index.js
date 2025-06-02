@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { Marquee } from "@devnomic/marquee";
+// import { Marquee } from "@devnomic/marquee";
 import "@devnomic/marquee/dist/index.css";
 
 import Nav from "@/components/Nav";
@@ -14,21 +14,21 @@ import Reviews from "@/components/Reviews";
 import firstImage from "../../public/images/am/R1-06660-0027_sm.jpg";
 import secondImage from "../../public/images/am/IMG_3225_sm.jpg";
 
-const MarqueeLine = ({ reverse = false, className = "" }) => (
-  <Marquee
-    reverse={reverse}
-    className={className}
-    innerClassName="text-mlg md:text-lg uppercase cursor-default"
-  >
-    <div className="">Лекции</div>
-    <div className="">Поддерживающие встречи</div>
-    <div className="">Обсуждения</div>
-    <div className="">Чат</div>
-    <div className="">Дополнительные материалы</div>
-    <div className="">Подарки от дружественных брендов</div>
-    <div className="">Живая встреча в Москве</div>
-  </Marquee>
-);
+// const MarqueeLine = ({ reverse = false, className = "" }) => (
+//   <Marquee
+//     reverse={reverse}
+//     className={className}
+//     innerClassName="text-mlg md:text-lg uppercase cursor-default"
+//   >
+//     <div className="">Лекции</div>
+//     <div className="">Поддерживающие встречи</div>
+//     <div className="">Обсуждения</div>
+//     <div className="">Чат</div>
+//     <div className="">Дополнительные материалы</div>
+//     <div className="">Подарки от дружественных брендов</div>
+//     <div className="">Живая встреча в Москве</div>
+//   </Marquee>
+// );
 
 export default function Home() {
   return (

@@ -8,7 +8,7 @@ const PRICES_LIST = [
       "Домашние задания без обратной связи",
       "Запись 1 месяц",
     ],
-    paymentUrl: false,
+    paymentUrl: 'https://payform.ru/ef7BOsR/',
     cost: {
       main: "12 000",
       caption: ["1 000₽ в месяц в рассрочку"],
@@ -22,7 +22,7 @@ const PRICES_LIST = [
       "Групповые встречи каждую неделю практикума с Алёной",
       "Запись 3 месяца",
     ],
-    paymentUrl: false,
+    paymentUrl: 'https://payform.ru/l47BOwp/',
     cost: {
       main: "24 000₽",
       caption: ["2 000₽ в месяц в рассрочку", "50 мест"],
@@ -36,10 +36,10 @@ const PRICES_LIST = [
       "Групповые встречи каждую неделю практикума с Анисией",
       "Личная обратная связь по домашним заданиям",
     ],
-    paymentUrl: false,
+    paymentUrl: 'https://payform.ru/p77BOyA/',
     cost: {
       main: "42 000₽",
-      caption: ["35 000₽ в месяц в рассрочку", "40 мест"],
+      caption: ["3 500₽ в месяц в рассрочку", "40 мест"],
     },
   },
 ];

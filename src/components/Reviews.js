@@ -45,8 +45,8 @@ const SLIDES = [
 ];
 
 function PhotoStrip() {
-  const imageCount = 19; // from 0 to 20
-  const images = Array.from({ length: imageCount + 1 }, (_, i) => `/members/${i}.jpg`);
+  const imageCount = 20; // from 1 to 20
+  const images = Array.from({ length: imageCount }, (_, i) => `/members/${i + 1}.jpg`);
 
   return (
     <div className="w-full overflow-hidden rounded-[2px]">
@@ -106,8 +106,6 @@ export default function Reviews() {
               }}
               render={(props, index) => <Item key={index} {...props} />}
             />
-            <br />
-            <PhotoStrip />
           </motion.div>
           <AnimatePresence>
             {!active && (
@@ -124,8 +122,8 @@ export default function Reviews() {
           </AnimatePresence>
         </div>
       </div>
-      <div className="">
-
+      <div className="pt-[50px]">
+            <PhotoStrip />
       </div>
     </div>
   );

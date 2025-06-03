@@ -44,7 +44,7 @@ const FAQ_LIST = [
       <em>Условия:</em>
       <br />— Без процентов
       <br />— Первый платеж — ровно через месяц после оформления. Сразу ничего платить не нужно.
-      Если вы хотите разбить оплату на несколько платежей — напишите Юле <a href="https://t.me/yulshlayko" rel="noopener noreferrer" target="_blank" class="text-black hover:text-black/65">https://t.me/yulshlayko</a>
+      Если вы хотите разбить оплату на несколько платежей — напишите Юле <a href="https://t.me/aniskuss_team" rel="noopener noreferrer" target="_blank" class="text-black hover:text-black/65">https://t.me/yulshlayko</a>
     `,
   },
   {
@@ -118,12 +118,12 @@ export default function FAQ() {
             <br />
             любые вопросы по&nbsp;обучению{" "}
             <a
-              href="https://t.me/yulshlayko"
+              href="https://t.me/aniskuss_team"
               rel="noopener noreferrer"
               target="_blank"
               className="text-black hover:text-black/65"
             >
-              https://t.me/yulshlayko
+              https://t.me/aniskuss_team
             </a>
           </div>
         </div>

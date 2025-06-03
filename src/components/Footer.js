@@ -24,7 +24,7 @@ export default function Footer() {
                     className="hover:text-black/65"
                     rel="noopener noreferrer"
                     target="_blank"
-                    href="/docs/Оферта_оказания_информационно_консультационных_услуг_практикум_память.docx"
+                    href="/docs/Оферта_оказания_информационно_консультационных_услуг_.pdf"
                   >
                     Оферта
                   </a>

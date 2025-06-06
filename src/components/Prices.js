@@ -11,7 +11,7 @@ const PRICES_LIST = [
     paymentUrl: 'https://payform.ru/897FoPT/',
     cost: {
       main: "15 000",
-      caption: ["1 000₽ в месяц в рассрочку"],
+      caption: ["1 250₽ в месяц в рассрочку"],
     },
   },
   {
@@ -25,7 +25,7 @@ const PRICES_LIST = [
     paymentUrl: 'https://payform.ru/oq7FoYG/',
     cost: {
       main: "27 000₽",
-      caption: ["2 000₽ в месяц в рассрочку", "50 мест"],
+      caption: ["2 250₽ в месяц в рассрочку", "50 мест"],
     },
   },
   {
@@ -39,7 +39,7 @@ const PRICES_LIST = [
     paymentUrl: 'https://payform.ru/5i7Fp4z/',
     cost: {
       main: "47 000₽",
-      caption: ["3 500₽ в месяц в рассрочку", "40 мест"],
+      caption: ["3 915₽ в месяц в рассрочку", "40 мест"],
     },
   },
 ];

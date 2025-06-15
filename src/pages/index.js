@@ -53,7 +53,7 @@ export default function Home() {
       <div className="px-[10px] mb-[50px] md:mb-[100px]">
         <div className="flex -mx-[10px] flex-wrap">
           <div className="ml-[8.333333%] md:ml-0 md:w-4/12 lg:w-3/12 px-[10px] self-end uppercase order-2 md:order-1">
-            <div className="">Старт: 16 июня</div>
+            <div className="">Старт: 23 июня</div>
             <div className="">Длительность: 6 недель</div>
           </div>
           <div className="md:w-8/12 lg:w-7/12 px-[10px] md:order-2 mb-[30px] md:mb-0">
@@ -204,7 +204,7 @@ export default function Home() {
               </div>
               <div className="flex flex-wrap mx-[-10px]">
                 <div className="sm:w-1/2 px-[10px]">
-                  <h2>Первая неделя</h2>
+                  <h2>Первая неделя / Лекции</h2>
                   <h3>1. Лекция «Жизненная сила»</h3>
                   <ul>
                     <li>
@@ -256,8 +256,16 @@ export default function Home() {
                     Безопасное пространство для групповой работы. Разбор и
                     обсуждение насущных вопросов и эмоций.
                   </p>
+                  <br />
                 </div>
                 <div className="sm:w-1/2 px-[10px]">
+                  <div>
+                    <h2>Первая неделя</h2>
+                    <h3>Я в кадре.</h3>
+                    <p>
+                      Как съемка себя влияет на самоощущение в жизни. Задания на исследование себя в кадре: лицо и тело. Рефлексия с получившимися фотографиями.
+                    </p>
+                  </div>
                   <div>
                     <h2>Вторая неделя</h2>
                     <h3>Социальные роли и чувства в них.</h3>

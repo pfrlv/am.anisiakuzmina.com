@@ -36,7 +36,7 @@ const PRICES_LIST = [
       "Групповые встречи каждую неделю практикума с Анисией",
       "Личная обратная связь от Анисии по домашним заданиям",
     ],
-    paymentUrl: 'https://payform.ru/5i7Fp4z/',
+    paymentUrl: 'https://payform.ru/sw7PBqA/',
     cost: {
       main: "47 000₽",
       caption: ["3 915₽ в месяц в рассрочку", "40 мест"],

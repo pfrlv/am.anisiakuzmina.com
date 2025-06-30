@@ -107,37 +107,33 @@ export default function Task({
 }
 
 export async function getStaticPaths() {
+  const res = await fetch("https://justfields.com/project/1bvEodrW/json");
+  const pages = await res.json();
+
+  const paths = Object.keys(pages).map((id) => ({
+    params: { id: id },
+  }));
+
   return {
-    paths: [
-      {
-        params: { id: "archive" },
-        params: { id: "archive_2" },
-      },
-    ],
+    paths: paths,
     fallback: true,
   };
 }
 
 export async function getStaticProps({ params }) {
-  const { id } = params;
-
-  if (!["archive", "archive_2"].includes(id)) {
-    return { notFound: true };
-  }
-
   const res = await fetch("https://justfields.com/project/1bvEodrW/json");
   const pages = await res.json();
 
-  const page = pages[id];
+  const page = pages[params.id];
 
   if (!page || !page.title) {
-    return { notFound: true };
+    return {
+      notFound: true,
+    };
   }
 
   return {
-    props: {
-      ...page,
-    },
+    props: page,
     revalidate: 60,
   };
 }
